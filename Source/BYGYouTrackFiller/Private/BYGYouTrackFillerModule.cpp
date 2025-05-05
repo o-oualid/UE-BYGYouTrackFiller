@@ -40,6 +40,7 @@ void FBYGYouTrackFillerModule::UnregisterCheats()
 	{
 		IConsoleManager::Get().UnregisterConsoleObject(ConsoleCommand);
 	}
+	ConsoleCommands.Empty();
 }
 
 void FBYGYouTrackFillerModule::FillAndShowYouTrack(const TArray<FString>& Args)
